@@ -20,14 +20,11 @@ body {
     padding: 1rem;
 }
 
-.menu-icon {
+.menu-text {
     display: none;
-    flex-direction: column;
     cursor: pointer;
-}
-
-.boton-menu {
     color: #fff;
+    font-size: 1.2rem;
 }
 
 .nav-menu {
@@ -52,9 +49,10 @@ body {
     margin-right: 0.5rem;
 }
 
+/* Responsive Styles */
 @media screen and (max-width: 768px) {
-    .menu {
-        display: flex;
+    .menu-text {
+        display: block;
     }
 
     .nav-menu {
@@ -73,7 +71,7 @@ body {
     }
 
     .nav-item {
-        margin: 20px 20px;
+        margin: 2rem 0;
         text-align: center;
     }
 }
